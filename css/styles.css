@@ -1,0 +1,76 @@
+/*Andrew Armas. WEB 210 - MODULE 10*/
+
+/*
+Color Palette
+Murray(Dark Magenta) #78103F
+Russian Violet #2D1442
+Dark Cyan #0F8B8D
+Sunglow #FFC857
+White #FFFFFF
+*/
+
+img {
+	display: block;
+	border: 0;
+	max-width: 100%;
+	height: auto;
+    
+}
+
+
+
+.site {
+    display: grid;
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+}
+
+.navbar {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.masthead {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.sidebar {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.thumbnail1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.thumbnail2 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.thumbnail3 {
+    grid-column: 1/ span 2;
+    grid-row: 4/5;
+}
+
+.thumbnail4 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.thumbnail5 {
+    grid-column: 2/span 2;
+    grid-row: 5/6;
+}
+
+.footer {
+    grid-column: 1/4;
+    grid-row: 6/7;
+}
+
